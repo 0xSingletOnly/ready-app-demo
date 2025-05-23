@@ -1,8 +1,33 @@
-# Ready- ISP User Onboarding Service
-Hello there! This is my demo as part of my job application for Ready.
+# Ready Now - ISP Help Center
 
-Pain point: When using a new ISP, it can be easy to get lost in the documentations (outdated websites, PDFs with poor links). New users have to spend time browsing/searching for their solution (e.g. what does the red light on that modem mean). This search is often slow and frustrating.
+Welcome to Ready Now, your AI-powered ISP help center. This application helps users quickly find answers to their ISP-related questions using natural language.
 
-Solution: Ready Now, the ISP Onboarding Service, allows users to ask questions in natural language and get their solution. This reduces friction in finding the right answer, and new users can enjoy the services of their ISP much quicker.
+## The Problem
 
-Technical details: Ready Now uses RAG with a ChromaDB. To illustrate how this can work for a ISP, I've selected X ISP, and passed its PDF as part of building the RAG system. In addition, I've opted for a small language model to show that this process can be cost-effective at scale. 
+When using a new ISP, customers often struggle with:
+- Outdated or hard-to-navigate documentation
+- Scattered information across multiple PDFs and web pages
+- Difficulty finding specific solutions to technical issues
+- Time wasted searching for answers to common questions
+
+## The Solution
+
+Ready Now provides an intuitive interface where users can:
+- Ask questions in natural language
+- Get accurate, relevant answers from official documentation
+- Quickly find solutions to common ISP issues
+- Access help 24/7 without waiting for customer support
+
+## Technical Details
+
+This application uses:
+- RAG (Retrieval-Augmented Generation) with ChromaDB for efficient document retrieval
+- A small, cost-effective language model (Ministral-3B) for generating responses
+- Semantic search to understand user intent and find relevant information
+
+## Getting Started
+
+1. Install the required dependencies
+2. Place your ISP documentation in the `data/raw` directory
+3. Run the application
+4. Start asking questions!
