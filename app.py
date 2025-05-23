@@ -55,7 +55,7 @@ such as troubleshooting, setup instructions, billing questions, or service detai
 """)
 
 # Query input
-default_question = "How do I reset my modem?"
+default_question = "How do I change my Xfinity appointment?"
 query = st.text_input("Ask me anything about your ISP service:", 
                      default_question)
 
