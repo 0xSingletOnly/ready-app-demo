@@ -1,0 +1,29 @@
+# Core dependencies
+streamlit>=1.24.0
+langchain>=0.0.200
+langchain_community
+langchain_huggingface
+chromadb>=0.4.0
+sentence-transformers>=2.2.2
+python-dotenv>=1.0.0
+PyYAML>=6.0
+python-dateutil>=2.8.2
+pydantic>=1.10.7
+
+# For document processing
+unstructured>=0.7.0
+pypdf>=3.9.0
+python-magic>=0.4.27
+
+# For embeddings and LLM
+huggingface-hub>=0.14.0
+mistralai
+rank_bm25
+transformers>=4.30.0
+torch>=2.0.0
+
+# For web interface
+streamlit-chat>=0.1.1
+
+# For testing
+pytest>=7.3.1
